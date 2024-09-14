@@ -4,6 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    visibility: hidden;
+}
+
+body.loaded {
+    visibility: visible;
+}
 
 body {
     font-family: 'Arial', sans-serif;
